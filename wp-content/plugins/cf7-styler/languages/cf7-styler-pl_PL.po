@@ -1,0 +1,706 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Project-Id-Version: Wow style (ES)\n"
+"Language: pl-PL\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-18 12:29+0000\n"
+"PO-Revision-Date: 2020-04-18 12:31+0000\n"
+"Last-Translator: \n"
+"Language-Team: Polish\n"
+"X-Loco-Version: 2.3.3; wp-5.4"
+
+msgid "- disable style scheme -"
+msgstr "- wyłącz szablon stylu -"
+
+msgid "- select -"
+msgstr "- wybierz -"
+
+msgid ""
+"%s used for all forms globally, click \"Use for all forms\" if you want to "
+"use current Scheme."
+msgstr ""
+"%s użyty globalnie do wszystkich formularzy , kliknij ,,Użyj do wszystkich "
+"formularzy”, jeśli chcesz użyć aktualnego Szablonu."
+
+msgid "14-days Trial"
+msgstr "14-dniowy okres próbny"
+
+msgid "Activate style for all forms*"
+msgstr "Aktywuj styl do wszystkich formularzy*"
+
+msgid "Activate style for current form"
+msgstr "Aktywuj styl dla aktualnego formularza"
+
+msgid ""
+"As an alternative you can disable clean out the styles like on Thrive "
+"architect:"
+msgstr ""
+"Opcjonalnie możesz wyłączyć czyszczenie stylów podobnie jak we wtyczce "
+"Thrive Architect:"
+
+msgid "Background Color"
+msgstr "Kolor tła"
+
+msgid "Background Image"
+msgstr "Obraz tła"
+
+msgid ""
+"Before using WOW Style Contact Form 7, you need to install and activate "
+"Contact Form 7 plugin."
+msgstr ""
+"Przed użyciem wtyczki WOW Style Contact Form 7, musisz zainstalować i "
+"aktywować wtyczkę Contact Form 7."
+
+msgid "BG Color"
+msgstr "Kolor tła"
+
+msgid "BG Opacity"
+msgstr "Przezroczystość tła"
+
+msgid "Blur radius"
+msgstr "Promień rozmycia"
+
+msgid "Border"
+msgstr "Obramowanie"
+
+msgid "Border Color"
+msgstr "Kolor obramowania"
+
+msgid "Border Radius"
+msgstr "Promień obramowania"
+
+msgid "Border Type"
+msgstr "Rodzaj obramowania"
+
+msgid "Border Width"
+msgstr "Szerokość obramowania"
+
+msgid "Button Border"
+msgstr "Obramowanie przycisku"
+
+msgid "Buttons"
+msgstr "Przyciski"
+
+msgid "By Takayuki Miyoshi"
+msgstr "Autor: Takayuki Miyoshi"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid ""
+"CF7 Customizer requires Contact Form 7 plugin to be installed and active. "
+"You can download %s."
+msgstr ""
+"Wtyczka do modyfikacji stylów formularza Contact Form 7 wymaga "
+"zainstalowania i aktywacji wtyczki Contact Form 7. Możesz pobrać %s."
+
+msgid "CF7 Form is not selected"
+msgstr "Formularz CF7 nie jest wybrany."
+
+msgid "CF7 Styler"
+msgstr "CF7 Styler"
+
+msgid "CF7 Styler Tutorial"
+msgstr "Tutorial do wtyczki CF7 Styler "
+
+msgid "Checkboxes & Radiobuttons"
+msgstr "Pola wielokrotnego i jednokrotnego wyboru"
+
+msgid "Clean Styles"
+msgstr "Wyczyść style"
+
+msgid "Clear"
+msgstr "Wyczyść"
+
+msgid "Close"
+msgstr "Zamknij"
+
+msgid "Color"
+msgstr "Kolor"
+
+msgid "Contact form 7 list"
+msgstr "Lista formularzy CF7"
+
+msgid "Contain"
+msgstr "Zmieść"
+
+msgid "Copy current style scheme settings"
+msgstr "Skopiuj ustawienia bieżącego szablonu stylu"
+
+msgid "Cover"
+msgstr "Pokryj"
+
+msgid "Create"
+msgstr "Utwórz"
+
+msgid "Create multiple style schemes"
+msgstr "Utwórz wiele szablonów stylu"
+
+msgid "Create new style scheme!"
+msgstr "Utwórz nowy szablon stylu!"
+
+msgid "Current Style"
+msgstr "Aktualny styl"
+
+msgid ""
+"Currently %s form is styled with %s. As in free version you can style only "
+"one form at a time and if you activate style for current form, style will be "
+"removed from other form."
+msgstr ""
+"Aktualnie styl formularza %s jest skonfigurowany przy pomocy %s. Ponieważ w "
+"wersji darmowej w danym momencie możesz modyfikować styl tylko jednego "
+"formularza, jeśli aktywujesz styl dla aktualnego formularza, styl zostanie "
+"usunięty z innego formularza."
+
+msgid "Custom CSS"
+msgstr "Niestandardowy CSS"
+
+msgid "Custom CSS Code"
+msgstr "Niestandardowy kod CSS"
+
+msgid "Dashed"
+msgstr "Kreskowane"
+
+msgid "Default Scheme"
+msgstr "Szablon domyślny"
+
+msgid "Delete Image"
+msgstr "Usuń obraz"
+
+msgid "deleted"
+msgstr "usunięty"
+
+msgid "Desktop View"
+msgstr "Widok pulpitu"
+
+msgid "Disable style for current form"
+msgstr "Wyłącz styl dla aktualnego formularza"
+
+msgid ""
+"Do you like to get styler premium version for free? Then Enter your WP2LEADS "
+"pro license or get a license here!"
+msgstr ""
+"Chcesz otrzymać wersję premium tej wtyczki za darmo? Wpisz posiadaną "
+"licencję na wersję pro wtyczki WP2LEADS lub zdobądź ją tutaj!"
+
+msgid "Do you want to save changes before leaving page?"
+msgstr "Chcesz zapisać zmiany przed opuszczeniem strony?"
+
+msgid "Dotted"
+msgstr "Kropkowane"
+
+msgid "Double"
+msgstr "Podwójne"
+
+msgid "Duplicate form in second column"
+msgstr "Duplikuj formularz w drugiej kolumnie"
+
+msgid "enabled for all forms"
+msgstr "włączony dla wszystkich formularzy"
+
+msgid "Error"
+msgstr "Błąd"
+
+msgid "Exit Full Screen"
+msgstr "Wyjdź z pełnego ekranu"
+
+msgid "Font Family"
+msgstr "Rodzina czcionek"
+
+msgid "Font Size"
+msgstr "Rozmiar czcionki"
+
+msgid "Font Style"
+msgstr "Styl czcionki"
+
+msgid "Font Weight"
+msgstr "Waga czcionki"
+
+msgid "Form BG Image & Colors"
+msgstr "Obraz i kolory tła formularza"
+
+msgid "Form Customizing"
+msgstr "Dostosowanie formularza"
+
+msgid "Form is not selected"
+msgstr "Nie wybrano formularza"
+
+msgid "Form Padding, Margin & Border"
+msgstr "Wypełnienie, margines i obramowanie formularza"
+
+msgid "Form Text"
+msgstr "Tekst formularza"
+
+msgid "Full Screen"
+msgstr "Pełny ekran"
+
+msgid "Groove"
+msgstr "Wklęsłe"
+
+msgid "Horizontal Length"
+msgstr "Długość pozioma"
+
+msgid "Hover BG Color"
+msgstr "Kolor tła po najechaniu"
+
+msgid "Hover Color"
+msgstr "Kolor po najechaniu"
+
+msgid "Hover Text Color"
+msgstr "Kolor tekstu po najechaniu"
+
+msgid ""
+"How to turn your contact form7 form into a converting and easy to use and "
+"pro styled contact form, \"survey\" lead generator or an eye catching form"
+msgstr ""
+"Jak z formularza kontaktowego Contact Form 7 zrobić formularz kontaktowy, "
+"który nie tylko będzie miał przyciągający uwagę profesjonalny wygląd  oraz "
+"będzie łatwy w użyciu, ale także będzie miał wysoki współczynnik konwersji i "
+" będzie generował zapytania o oferty."
+
+msgid ""
+"https://saleswonder.biz/blog/4free-contact-form-7-cf7-formular-und-klick-"
+"tipp-einfach-verbinden/"
+msgstr ""
+"https://saleswonder.biz/blog/4free-contact-form-7-cf7-formular-und-klick-"
+"tipp-einfach-verbinden/"
+
+msgid "I'm happy with this! Save"
+msgstr "Podoba mi się! Zapisz"
+
+msgid ""
+"If you are using page builders, like Thrive Architect, OptimizePress etc., "
+"please check our Knowledge Base page for fixing possible issues"
+msgstr ""
+"Jeśli używasz kreatorów stron, takich jak Thrive Architect, OptimizePress "
+"itp., zajrzyj na naszą stronę z Bazą wiedzy, aby znaleźć rozwiązanie "
+"ewentualnych problemów"
+
+msgid ""
+"If you need to load style scheme inside <body> tag only on some pages, you "
+"can do it on frontend using \"CF7 Styler\" button. This function is only "
+"available for single post types (pages, posts, products etc.) and in premium "
+"version. You cannot do it on archives pages (blog, products list etc) in "
+"this case you need to use global settings."
+msgstr ""
+"Jeśli potrzebujesz dodać szablon stylu wewnątrz tagu <body> tylko na "
+"niektórych stronach, możesz to zrobić w interfejsie użytkownika (frontend) "
+"za pomocą przycisku ,,CF7 Styler”. Funkcja ta jest dostępna tylko dla "
+"pojedynczych postów (strony, posty, produkty itp.) oraz w wersji premium. "
+"Nie można tego zrobić na stronach archiwum (blogu, liście produktów itp.), w "
+"tym przypadku trzeba użyć ustawień globalnych."
+
+msgid ""
+"If you need to load style scheme inside <body> tag only on some pages, you "
+"can do it on frontend using \"CF7 Styler\" button. This function is only "
+"available for single post types (pages, posts, products etc.). You cannot do "
+"it on archives pages (blog, products list etc) in this case you need to use "
+"global settings."
+msgstr ""
+"Jeśli potrzebujesz dodać szablon stylu wewnątrz tagu <body> tylko na "
+"niektórych stronach, możesz to zrobić w interfejsie użytkownika (frontend) "
+"za pomocą przycisku ,,CF7 Styler”. Funkcja ta jest dostępna tylko dla "
+"pojedynczych postów (strony, posty, produkty itp.). Nie można tego zrobić na "
+"stronach archiwum (blogu, liście produktów itp.), w tym przypadku trzeba "
+"użyć ustawień globalnych."
+
+msgid ""
+"Image background settings available in live mode only for Professional "
+"version. You can test it in preview mode \"current style\", but it will not "
+"be saved."
+msgstr ""
+"Ustawienia obrazu tła dostępne są w trybie podglądu na żywo tylko dla wersji "
+"Professional. Możesz je wypróbować w trybie podglądu ,,aktualny styl”, ale "
+"nie zostaną one zapisane."
+
+msgid "Image Opacity"
+msgstr "Przezroczystość obrazu"
+
+msgid "Image Position"
+msgstr "Pozycja obrazu"
+
+msgid "Image Size"
+msgstr "Rozmiar obrazu"
+
+msgid "Inherit"
+msgstr "Dziedzicz"
+
+msgid "Input Fields"
+msgstr "Pola wejściowe"
+
+msgid "Input style scheme title"
+msgstr "Nazwa szablonu stylu wejściowego"
+
+msgid "Inset"
+msgstr "Wklejające"
+
+msgid "Italic"
+msgstr "Kursywa"
+
+msgid "Labels Color"
+msgstr "Kolor etykiet"
+
+msgid "Labels Font Size"
+msgstr "Rozmiar czcionki etykiet"
+
+msgid "Labels Settings"
+msgstr "Ustawienia etykiet"
+
+msgid "License"
+msgstr "Licencja"
+
+msgid "Line Height"
+msgstr "Wysokość linii"
+
+msgid "Links Color"
+msgstr "Kolor odsyłaczy"
+
+msgid "Links Hover Color"
+msgstr "Kolor odsyłaczy po najechaniu"
+
+msgid "Links Settings"
+msgstr "Ustawienia odsyłaczy"
+
+msgid "Live"
+msgstr "Na żywo"
+
+msgid "Load styles in <body> tag"
+msgstr "Dodaj style do tagu <body>"
+
+msgid "Load styles inside <body> tag on this page"
+msgstr "Dodaj style do tagu <body> na tej stronie"
+
+msgid "Make checkbox item one per line"
+msgstr "Ustaw po jednym polu wielokrotnego wyboru w wierszu"
+
+msgid "Make full width?"
+msgstr "Ustawić pełną szerokość?"
+
+msgid "Make input fields full width?"
+msgstr "Ustawić pola wejściowe na pełną szerokość?"
+
+msgid "Make radiobutton item one per line"
+msgstr "Ustaw po jednym polu jednokrotnego wyboru w wierszu"
+
+msgid "Margin"
+msgstr "Margines"
+
+msgid "Mobile View"
+msgstr "Widok w komórce"
+
+msgid "NO"
+msgstr "NIE"
+
+msgid "No Contact Form 7 items for preview"
+msgstr "Brak pozycji formularza Contact Form 7 do podglądu"
+
+msgid ""
+"No form is styled with style scheme, click \"Activate style for current "
+"form\" button to apply current scheme for this form."
+msgstr ""
+"Żaden formularz nie jest zmodyfikowany przy pomocy szablonu stylu. Aby "
+"zastosować aktualny szablon do tego formularza kliknij ,,Aktywuj styl do "
+"aktualnego formularza”."
+
+msgid "No plugin selected to install"
+msgstr "Nie wybrano żadnej wtyczki do zainstalowania"
+
+msgid "No style scheme selected"
+msgstr "Nie wybrano żadnego szablonu stylu"
+
+#: modules/recaptcha.php:465
+msgid "Normal"
+msgstr "Normalny"
+
+msgid "Oblique"
+msgstr "Kursywa"
+
+msgid ""
+"One per line styles for checkboxes and radiobuttons in live mode only for "
+"Professional version. You can test it in preview mode \"current style\", but "
+"it will not be saved."
+msgstr ""
+"Ustawienie jednego pola wielokrotnego i jednokrotnego wyboru w wierszu jest "
+"możliwe tylko w wersji Professional. Możesz je wypróbować w trybie podglądu ,"
+",aktualny styl”, ale nie zostaną one zapisane."
+
+msgid "Opacity"
+msgstr "Przezroczystość"
+
+msgid "Open styler"
+msgstr "Otwórz Styler"
+
+msgid "Original size"
+msgstr "Oryginalny rozmiar"
+
+msgid "Outline"
+msgstr "Kontur"
+
+msgid "Outset"
+msgstr "Uwypuklające"
+
+msgid "Padding"
+msgstr "Wypełnienie"
+
+msgid "Please input style scheme title"
+msgstr "Wprowadź szablonu stylu wejściowego"
+
+msgid "Preview"
+msgstr "Podgląd"
+
+msgid "Preview mode"
+msgstr "Tryb podglądu"
+
+msgid "Preview Unstyled"
+msgstr "Podgląd niezmodyfikowanego stylu"
+
+msgid "Radius"
+msgstr "Promień"
+
+msgid "Repeat both"
+msgstr "Powtórz obydwa"
+
+msgid "Repeat horizontal"
+msgstr "Powtórz poziomo"
+
+msgid "Repeat vertical"
+msgstr "Powtórz pionowo"
+
+msgid "Reset to default"
+msgstr "Przywróć ustawienia domyślne"
+
+msgid "Ridge"
+msgstr "Wypukłe"
+
+msgid "saleswonder.biz"
+msgstr "saleswonder.biz"
+
+#: admin/edit-contact-form.php:26 admin/edit-contact-form.php:131 
+#: modules/recaptcha.php:211
+msgid "Save"
+msgstr "Zapisz"
+
+msgid "Saved"
+msgstr "Zapisano"
+
+msgid "Second column view"
+msgstr "Widok drugiej kolumny"
+
+msgid "Select style scheme for this form"
+msgstr "Wybierz szablon stylu dla tego formularza"
+
+#: admin/admin.php:542
+msgid "Settings"
+msgstr "Ustawienia"
+
+msgid "Settings saved as"
+msgstr "Ustawienia zapisane jako"
+
+msgid "Shadow"
+msgstr "Cień"
+
+msgid "Shadow Color"
+msgstr "Kolor cienia"
+
+msgid "Shadow Position"
+msgstr "Pozycja cienia"
+
+msgid "Solid"
+msgstr "Jednolite ciągłe"
+
+msgid ""
+"Some themes or page builders (e.g. Thrive Architect, OptimizePress etc.) "
+"could remove inline styles inside <head> tag. Loading style scheme within "
+"<body> tag will fix this issue and show your forms styled."
+msgstr ""
+"Niektóre motywy lub kreatory stron (np. Thrive Architect, OptimizePress itp.)"
+" mogą usuwać style lokalne (inline styles) wewnątrz tagu <head>. Dodanie "
+"szablonu stylu wewnątrz tagu <body> naprawi ten problem i twoje formularze "
+"będą miały zmodyfikowany styl."
+
+msgid "Split mode"
+msgstr "Tryb podzielonego widoku"
+
+msgid "Split view"
+msgstr "Widok podzielony"
+
+msgid "Spread radius"
+msgstr "Promień rozproszenia"
+
+msgid "Start styling"
+msgstr "Zacznij modyfikować styl"
+
+msgid "Start with creating Default Style Scheme"
+msgstr "Zacznij od utworzenia Domyślnego szablonu stylu"
+
+msgid "Start with creating your first Contact Form 7"
+msgstr ""
+"Zacznij od utworzenia swojego pierwszego formularza kontaktowego używając "
+"wtyczki Contact Form 7"
+
+msgid "Start your 14-day free trial with all Professional functions here!"
+msgstr ""
+"Rozpocznij 14-dniową bezpłatną wersję próbną z wszystkimi funkcjami wersji "
+"Professional tutaj!"
+
+msgid "Step 1. Click \"Edit with Thrive architect\" link in admin page list"
+msgstr ""
+"Krok 1. Kliknij na link ,,Edit with Thrive Architect\" (Edytuj z Thrive "
+"Architect) na liście stron administratora"
+
+msgid "Step 2. Click \"Settings\" icon on right vertical menu"
+msgstr "Krok 2. Kliknij ikonę ,,Settings” (Ustawienia) w prawym pionowym menu"
+
+msgid "Step 3. \"Advanced settings\" => \"CSS in the <head> section\""
+msgstr ""
+"Krok 3. ,,Advanced settings” (Ustawienia zaawansowane) => ,,CSS in the <head>"
+" section” (CSS w sekcji <head>)"
+
+msgid "Step 4. Make sure that \"Do not strip CSS from <head>\" is checked"
+msgstr ""
+"Krok 4. Upewnij się, że opcja ,,Do not strip CSS from <head>” (Nie usuwaj "
+"CSS z sekcji<head>) jest zaznaczona"
+
+msgid "Step 5. Click \"SAVE WORK\" button"
+msgstr "Krok 5. Kliknij przycisk ,,SAVE WORK” (ZAPISZ PRACĘ)"
+
+msgid "Style all forms in one click globally"
+msgstr "Modyfikuj globalnie jednym kliknięciem styl wszystkich formularzy"
+
+msgid "Style each form with any style scheme individually"
+msgstr ""
+"Modyfikuj indywidualnie styl każdego formularza przy pomocy dowolnego "
+"szablonu"
+
+msgid "Style scheme disabled for all forms"
+msgstr "Szablon stylu jest wyłączony dla wszystkich formularzy"
+
+msgid "Style scheme disabled for this form"
+msgstr "Szablon stylu jest wyłączony dla tego formularza"
+
+msgid "Style scheme enabled for this form"
+msgstr "Szablon stylu jest włączony dla tego formularza"
+
+msgid "Style scheme is not selected"
+msgstr "Szablon stylu nie jest wybrany"
+
+msgid "Style schemes list"
+msgstr "Lista szablonów stylów"
+
+msgid "Style schemes preview"
+msgstr "Podgląd szablonów stylów"
+
+msgid "Style schemes settings"
+msgstr "Ustawienia szablonów stylów"
+
+msgid "Style will be loaded in tag"
+msgstr "Styl zostanie dodany do tagu"
+
+msgid "Success"
+msgstr "Udało się"
+
+msgid "Tablet View"
+msgstr "Widok w tablecie"
+
+msgid "Text Color"
+msgstr "Kolor tekstu"
+
+msgid ""
+"This form is styled with %s globally, you can style it with current Style "
+"scheme."
+msgstr ""
+"Styl tego formularza modyfikowany jest globalnie przy pomocy %s, możesz go "
+"modyfikować przy pomocy aktualnego Szablonu stylu."
+
+msgid ""
+"This form is styled with %s, you can style it with current Style scheme."
+msgstr ""
+"Styl tego formularza modyfikowany jest przy pomocy %s, możesz go modyfikować "
+"przy pomocy aktualnego Szablonu stylu."
+
+msgid ""
+"This form is styled with current Style Scheme, you can disable it and use "
+"global settings."
+msgstr ""
+"Styl tego formularza modyfikowany jest przy pomocy aktualnego Szablonu stylu,"
+" możesz go wyłączyć i użyć ustawień globalnych."
+
+msgid ""
+"This form not styled with any Style scheme, you can enable current Scheme "
+"for this form or set up global Style Scheme by clicking \"Use for all "
+"forms\" below scheme title."
+msgstr ""
+"Styl tego formularza nie jest modyfikowany przy pomocy żadnego Szablonu "
+"stylu, możesz włączyć aktualny Szablon dla tego formularza albo ustawić "
+"globalny Szablon stylu klikając na ,,Użyj do wszystkich formularzy” poniżej "
+"nazwy szablonu."
+
+msgid "This scheme is not existed"
+msgstr "Ten szablon nie istnieje"
+
+msgid ""
+"This Style Scheme enabled globally for all forms. If you want to use your "
+"theme's style for Contact Form 7 click \"Disable\" button."
+msgstr ""
+"Ten Szablon stylu jest włączony globalnie dla wszystkich formularzy. Jeżeli "
+"do formularza Contact Form 7 chcesz użyć stylu z twojego motywu kliknij "
+"przycisk ,,Wyłącz”."
+
+msgid "Tobias Conrad"
+msgstr "Tobias Conrad"
+
+msgid "Tutorial"
+msgstr "Tutorial"
+
+msgid "Unstyled"
+msgstr "Niezmodyfikowany styl"
+
+msgid "Upgrade to Pro"
+msgstr "Uaktualnij do wersji Pro"
+
+msgid "Upload Image"
+msgstr "Załaduj obraz"
+
+msgid "Vertical Length"
+msgstr "Długość pionowa"
+
+msgid "Welcome"
+msgstr "Witaj"
+
+msgid "Width"
+msgstr "Szerokość"
+
+msgid "WOW Style Contact Form 7"
+msgstr "WOW Style Contact Form 7"
+
+msgid "YES"
+msgstr "TAK"
+
+msgid ""
+"You can create new style scheme with current scheme settings. If you want to "
+"create blank style scheme uncheck checkbox below."
+msgstr ""
+"Możesz utworzyć nowy szablon stylu z aktualnymi ustawieniami szablonu. Jeśli "
+"chcesz utworzyć pusty szablon stylu odznacz pole wyboru poniżej."
+
+msgid "You cannot delete"
+msgstr "Nie można usunąć"
+
+msgid "You cannot use this settings on this page type"
+msgstr "Nie można używać tych ustawień na stronach tego typu"
+
+msgid "You do not have any Contact Form 7 items"
+msgstr "Nie masz żadnych pozycji formularza Contact Form 7"
+
+msgid ""
+"You do not use any of Style Schemes for Contact Form 7. Click \"Use for all "
+"forms\" to use current Scheme globally."
+msgstr ""
+"Nie używasz żadnych Szablonów stylów do formularza Contact Form 7. Kliknij ,,"
+"Użyj do wszystkich formularzy”, aby używać aktualnego Szablonu globalnie."

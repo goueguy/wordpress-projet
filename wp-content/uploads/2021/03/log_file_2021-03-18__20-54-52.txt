@@ -1,0 +1,116 @@
+
+---Downloaded files---
+The import files for: Di eCommerce Demo Site were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/stack
+Data file = /opt/lampp/htdocs/stack/wp-content/plugins/di-themes-demo-site-importer/inc/di-themes/di-ecommerce/files/demo-content.xml
+Widget file = /opt/lampp/htdocs/stack/wp-content/plugins/di-themes-demo-site-importer/inc/di-themes/di-ecommerce/files/widgets.wie
+Customizer file = /opt/lampp/htdocs/stack/wp-content/plugins/di-themes-demo-site-importer/inc/di-themes/di-ecommerce/files/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Image - Image Widget - Imported
+Rechercher - Search Website - Imported
+Recent Posts with Thumbnail - Recent Posts - Imported
+Catégories - Post Categories - Imported
+Di eCommerce Social Profile - Social Links - Imported
+Son - Audio Widget - Imported
+Vidéo - Video Widget - Imported
+Texte - Text Widget - Imported
+Galerie - Gallery Widget - Imported
+
+Page Sidebar : 
+
+Recent Posts with Thumbnail - Recent Posts - Imported
+Rechercher - Search Website - Imported
+Son - Audio Widget - Imported
+Image - Image Widget - Imported
+Vidéo - Video Widget - Imported
+
+WooCommerce Sidebar : 
+
+Rechercher un produit - Search Products - Imported
+Filtrer les produits par prix - Filter by price - Imported
+Produits par note obtenue - Top rated products - Imported
+Galerie - Products Gallery - Imported
+
+Top Header right : 
+
+HTML personnalisé - No Title - Imported
+Rechercher un produit - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

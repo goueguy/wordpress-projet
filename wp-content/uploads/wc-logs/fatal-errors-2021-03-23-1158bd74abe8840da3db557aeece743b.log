@@ -1,0 +1,1435 @@
+2021-03-23T05:17:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_process...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(55, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T05:19:54+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(236, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T05:20:40+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(237, 'Async Request')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T05:21:44+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(238, 'Async Request')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T05:24:47+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(239, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T05:25:09+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(240, 'Async Request')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T05:31:36+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(241, 'Async Request')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T05:32:42+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(242, 'Async Request')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T05:33:50+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(243, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T05:43:22+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(244, 'Async Request')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T05:50:32+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(245, 'Async Request')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T05:50:55+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(246, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T05:54:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(247, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T05:58:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(248, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T06:08:53+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(249, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T06:09:53+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(250, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T06:10:54+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(251, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T07:04:52+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(252, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T07:06:23+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(253, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T07:06:55+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(254, 'Async Request')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T07:10:50+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(255, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T07:12:35+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(256, 'Async Request')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T07:13:46+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(257, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T07:15:58+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(258, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T08:36:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(259, 'Async Request')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T08:38:44+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(260, 'Async Request')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T08:44:55+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(261, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T08:46:57+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(262, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T08:48:11+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(263, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T08:49:14+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(264, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T08:50:50+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(266, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T08:51:51+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(267, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T08:52:39+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(268, 'Async Request')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T08:54:50+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(269, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T08:55:20+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(270, 'Async Request')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'Async Request')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('Async Request')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_AsyncRequest_QueueRunner.php(52): do_action('action_schedule...', 'Async Request')
+#10 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/includes/libraries/wp-async-request.php(147): ActionScheduler_AsyncRequest_QueueRunner->handle()
+#11 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): WP_Async_Request->maybe_handle('')
+#12 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#13 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#14 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(187): do_action('wp_ajax_as_asyn...')
+#15 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T08:55:56+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(271, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T09:39:21+00:00 CRITICAL Uncaught Error: Unknown named parameter $tasks_meta_id in /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php:292
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#1 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/actions/ActionScheduler_Action.php(22): do_action_ref_array('wpforms_admin_n...', Array)
+#3 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php(65): ActionScheduler_Action->execute()
+#4 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(162): ActionScheduler_Abstract_QueueRunner->process_action(272, 'WP Cron')
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php(132): ActionScheduler_QueueRunner->do_batch(25, 'WP Cron')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): ActionScheduler_QueueRunner->run('WP Cron')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-cron.php(138): do_action_ref_array('action_schedule...', Array)
+#10 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php à la ligne 292
+
+2021-03-23T10:39:32+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#13 /opt/lampp/htdocs/stack/wp-admin/plugins.php(10): require_once('/opt/lampp/htdo...')
+#14 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T10:41:13+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T10:42:33+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin.php(34): require_once('/opt/lampp/htdo...')
+#13 /opt/lampp/htdocs/stack/wp-admin/plugins.php(10): require_once('/opt/lampp/htdo...')
+#14 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T10:42:49+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T10:43:04+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T10:45:05+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T10:47:06+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T10:49:07+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T10:51:08+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T10:53:09+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T10:55:11+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T10:57:11+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T10:59:12+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:01:13+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:03:14+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:05:15+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:07:16+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:09:17+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:11:18+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:12:44+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:12:59+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:13:15+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:15:16+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:17:17+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:19:18+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:21:19+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:23:20+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:25:21+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:27:22+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:29:23+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:31:24+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:33:25+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:35:26+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:37:27+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:39:28+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:41:29+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:43:29+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:43:45+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:44:00+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:44:12+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#13 /opt/lampp/htdocs/stack/index.php(17): require('/opt/lampp/htdo...')
+#14 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:44:16+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:44:21+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#13 /opt/lampp/htdocs/stack/index.php(17): require('/opt/lampp/htdo...')
+#14 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:44:26+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-blog-header.php(13): require_once('/opt/lampp/htdo...')
+#13 /opt/lampp/htdocs/stack/index.php(17): require('/opt/lampp/htdo...')
+#14 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:44:42+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+
+2021-03-23T11:44:57+00:00 CRITICAL Uncaught Error: Call to undefined function submit_button() in /opt/lampp/htdocs/stack/wp-admin/includes/file.php:2304
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(110): request_filesystem_credentials('http://localhos...', 'ftpext', false, false, Array)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(78): MailOptin\NinjaFormsConnect\Connect->setup_file_system()
+#2 /opt/lampp/htdocs/stack/wp-content/plugins/mailoptin/src/connections/NinjaFormsConnect/Connect.php(50): MailOptin\NinjaFormsConnect\Connect->generate_classes('WordPressUserRe...', 'Inscription d\xE2\x80...')
+#3 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): MailOptin\NinjaFormsConnect\Connect->register_nf_actions(Array)
+#4 /opt/lampp/htdocs/stack/wp-includes/plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 /opt/lampp/htdocs/stack/wp-content/plugins/ninja-forms/ninja-forms.php(757): apply_filters('ninja_forms_reg...', Array)
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): Ninja_Forms->plugins_loaded('')
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-settings.php(423): do_action('plugins_loaded')
+#10 /opt/lampp/htdocs/stack/wp-config.php(90): require_once('/opt/lampp/htdo...')
+#11 /opt/lampp/htdocs/stack/wp-load.php(37): require_once('/opt/lampp/htdo...')
+#12 /opt/lampp/htdocs/stack/wp-admin/admin-ajax.php(22): require_once('/opt/lampp/htdo...')
+#13 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-admin/includes/file.php à la ligne 2304
+

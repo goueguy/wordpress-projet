@@ -1,0 +1,50 @@
+2021-03-18T19:43:49+00:00 CRITICAL Cannot declare class MasterHeaderFooter\Master_Addons_CPT, because the name is already in use dans /opt/lampp/htdocs/stack/wp-content/plugins/master-addons/inc/modules/header-footer-comment/inc/cpt.php à la ligne 6
+
+2021-03-18T19:43:51+00:00 CRITICAL Cannot declare class MasterHeaderFooter\Master_Addons_CPT, because the name is already in use dans /opt/lampp/htdocs/stack/wp-content/plugins/master-addons/inc/modules/header-footer-comment/inc/cpt.php à la ligne 6
+
+2021-03-18T19:43:52+00:00 CRITICAL Cannot declare class MasterHeaderFooter\Master_Addons_CPT, because the name is already in use dans /opt/lampp/htdocs/stack/wp-content/plugins/master-addons/inc/modules/header-footer-comment/inc/cpt.php à la ligne 6
+
+2021-03-18T19:53:23+00:00 CRITICAL Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /opt/lampp/htdocs/stack/wp-content/plugins/master-addons/inc/modules/header-footer-comment/inc/api/cpt-api.php:43
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/master-addons/inc/modules/header-footer-comment/inc/api/cpt-api.php(43): implode(', ', NULL)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/master-addons/inc/modules/header-footer-comment/inc/api/rest-api.php(38): MasterHeaderFooter\JLTMA_Header_Footer_CPT_API->get_update()
+#2 /opt/lampp/htdocs/stack/wp-includes/rest-api/class-wp-rest-server.php(1139): MasterHeaderFooter\JLTMA_Header_Footer_Rest_API->jltma_rest_api_action(Object(WP_REST_Request))
+#3 /opt/lampp/htdocs/stack/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/masteraddons/v...', Array, NULL)
+#4 /opt/lampp/htdocs/stack/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /opt/lampp/htdocs/stack/wp-includes/rest-api.php(354): WP_REST_Server->serve_request('/masteraddons/v...')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-includes/class-wp.php(388): do_action_ref_array('parse_request', Array)
+#10 /opt/lampp/htdocs/stack/wp-includes/class-wp.php(750): WP->parse_request('')
+#11 /opt/lampp/htdocs/stack/wp-includes/functions.php(1291): WP->main('')
+#12 /opt/lampp/htdocs/stack/wp-blog-header.php(16): wp()
+#13 /opt/lampp/htdocs/stack/index.php(17): require('/opt/lampp/htdo...')
+#14 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-content/plugins/master-addons/inc/modules/header-footer-comment/inc/api/cpt-api.php à la ligne 43
+
+2021-03-18T19:54:12+00:00 CRITICAL Uncaught TypeError: implode(): Argument #1 ($pieces) must be of type array, string given in /opt/lampp/htdocs/stack/wp-content/plugins/master-addons/inc/modules/header-footer-comment/inc/api/cpt-api.php:43
+Stack trace:
+#0 /opt/lampp/htdocs/stack/wp-content/plugins/master-addons/inc/modules/header-footer-comment/inc/api/cpt-api.php(43): implode(', ', NULL)
+#1 /opt/lampp/htdocs/stack/wp-content/plugins/master-addons/inc/modules/header-footer-comment/inc/api/rest-api.php(38): MasterHeaderFooter\JLTMA_Header_Footer_CPT_API->get_update()
+#2 /opt/lampp/htdocs/stack/wp-includes/rest-api/class-wp-rest-server.php(1139): MasterHeaderFooter\JLTMA_Header_Footer_Rest_API->jltma_rest_api_action(Object(WP_REST_Request))
+#3 /opt/lampp/htdocs/stack/wp-includes/rest-api/class-wp-rest-server.php(985): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/masteraddons/v...', Array, NULL)
+#4 /opt/lampp/htdocs/stack/wp-includes/rest-api/class-wp-rest-server.php(412): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#5 /opt/lampp/htdocs/stack/wp-includes/rest-api.php(354): WP_REST_Server->serve_request('/masteraddons/v...')
+#6 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(292): rest_api_loaded(Object(WP))
+#7 /opt/lampp/htdocs/stack/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#8 /opt/lampp/htdocs/stack/wp-includes/plugin.php(551): WP_Hook->do_action(Array)
+#9 /opt/lampp/htdocs/stack/wp-includes/class-wp.php(388): do_action_ref_array('parse_request', Array)
+#10 /opt/lampp/htdocs/stack/wp-includes/class-wp.php(750): WP->parse_request('')
+#11 /opt/lampp/htdocs/stack/wp-includes/functions.php(1291): WP->main('')
+#12 /opt/lampp/htdocs/stack/wp-blog-header.php(16): wp()
+#13 /opt/lampp/htdocs/stack/index.php(17): require('/opt/lampp/htdo...')
+#14 {main}
+  thrown dans /opt/lampp/htdocs/stack/wp-content/plugins/master-addons/inc/modules/header-footer-comment/inc/api/cpt-api.php à la ligne 43
+
+2021-03-18T21:14:09+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported dans /opt/lampp/htdocs/stack/wp-content/plugins/master-elements/masterelements.php à la ligne 563
+
+2021-03-18T21:14:10+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported dans /opt/lampp/htdocs/stack/wp-content/plugins/master-elements/masterelements.php à la ligne 563
+
+2021-03-18T21:14:11+00:00 CRITICAL Array and string offset access syntax with curly braces is no longer supported dans /opt/lampp/htdocs/stack/wp-content/plugins/master-elements/masterelements.php à la ligne 563
+

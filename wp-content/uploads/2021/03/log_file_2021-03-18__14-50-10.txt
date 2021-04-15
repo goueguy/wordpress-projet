@@ -1,0 +1,11 @@
+
+---Downloaded files---
+The import files for: Stack + Visual Composer Demo Data were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/stack
+Data file = /opt/lampp/htdocs/stack/wp-content/uploads/2021/03/demo-content-import-file_2021-03-18__14-50-10.xml
+Widget file = /opt/lampp/htdocs/stack/wp-content/uploads/2021/03/demo-widgets-import-file_2021-03-18__14-50-10.json
+Customizer file = /opt/lampp/htdocs/stack/wp-content/uploads/2021/03/demo-customizer-import-file_2021-03-18__14-50-10.dat
+Redux files:
+not defined!

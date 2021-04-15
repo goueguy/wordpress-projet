@@ -1,0 +1,8 @@
+Di Blocks plugin License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Di Blocks plugin uses the following third party open source projects:
+Font-Awesome - Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT @ https://github.com/FortAwesome/Font-Awesome/blob/master/LICENSE.txt
+react-fonticonpicker - MIT @ https://github.com/fontIconPicker/react-fonticonpicker/blob/master/LICENSE
+Typography Control - GPLv2 or later @ https://github.com/brainstormforce/ultimate-addons-for-gutenberg/blob/master/README.md
+Animate CSS - MIT @ https://github.com/animate-css/animate.css/blob/master/LICENSE
